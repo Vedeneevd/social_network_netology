@@ -1,0 +1,62 @@
+# Файл с переменными окружения
+.env
+
+# Виртуальное окружение
+venv/
+.env/
+env/
+ENV/
+
+# Базы данных
+*.sqlite3
+*.db
+
+# Статические файлы (если они собираются в другом месте)
+/staticfiles/
+/mediafiles/
+
+# Локальные настройки
+settings/local.py
+settings/dev.py
+
+# Файлы, созданные IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи
+*.log
+
+# Миграции (если вы хотите исключить их, но обычно они нужны)
+# /migrations/
+
+# Файлы, созданные pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Файлы, созданные setuptools
+*.egg-info/
+.eggs/
+
+# Файлы, созданные pytest
+.pytest_cache/
+
+# Файлы, созданные coverage
+.coverage
+htmlcov/
+
+# Файлы, созданные Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы, созданные macOS
+.DS_Store
+
+# Файлы, созданные Windows
+Thumbs.db
